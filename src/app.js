@@ -1,9 +1,4 @@
-import "bootstrap";
-import "./style.css";
 
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
 
   let pronoun = ['the', 'our'];
   let adj = ['great', 'big'];
@@ -17,6 +12,6 @@ let result= ""
     result += "<p>"+pronoun[i] + adj[j] + noun[k]+ "</p>"
   }
   } 
-  }
+  }   
 
   document.getElementById("excusa").innerHTML= result
